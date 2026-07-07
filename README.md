@@ -39,7 +39,7 @@ This project provides an intuitive interface for interacting with PostgreSQL dat
 - Qwen 2.5 (Planned)
 - Prompt Engineering
 
-- Future Improvements
+### Future Improvements
 LLM integration
 SQL validation
 Query execution history
@@ -49,25 +49,25 @@ CI/CD pipeline
 Multiple database support
 Contributing
 
-Contributions are welcome.
+### Contributions are welcome.
 
 Fork the repository
 Create a new branch
 Commit your changes
 Open a Pull Request
-📜 License
+### License
 
 This project is licensed under the MIT License.
 
 If this repository is based on or adapted from another MIT-licensed project, retain the original MIT copyright notice in the repository as required by the license.
 
-👨‍💻 Maintainer
+### Maintainer
 
 Saurabh Gupta
 
 Computer Science Engineering Student
 
-Interested in:
+### Interested in:
 
 Full Stack Development
 Artificial Intelligence
