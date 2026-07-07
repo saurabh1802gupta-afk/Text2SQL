@@ -1,51 +1,47 @@
-# 🚀 Text2SQL App
+# 🚀 Text2SQL Application
 
-A full-stack **Text-to-SQL** application that converts natural language questions into executable SQL queries using Large Language Models (LLMs).
+A modern full-stack **Text-to-SQL** application that transforms natural language questions into SQL queries using Large Language Models (LLMs).
 
-The application enables users to interact with relational databases using plain English instead of writing SQL manually.
+This project provides an intuitive interface for interacting with PostgreSQL databases without writing SQL manually.
 
 ---
 
 ## ✨ Features
 
-* Convert natural language into SQL queries
-* PostgreSQL database integration
-* FastAPI REST API backend
-* React + TypeScript frontend
-* LLM-powered SQL generation
-* Automatic database schema loading
-* Modular project architecture
-* Easily extensible for different LLMs
+- Natural language to SQL conversion
+- PostgreSQL database connectivity
+- FastAPI REST API backend
+- React + TypeScript frontend
+- SQLAlchemy ORM integration
+- Automatic database schema extraction
+- Modular and scalable architecture
+- Ready for LLM integration
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
-
-* React
-* TypeScript
-* Vite
+- React
+- TypeScript
+- Vite
 
 ### Backend
-
-* FastAPI
-* SQLAlchemy
-* Psycopg2
-* Python 3.12+
+- FastAPI
+- Python 3.12+
+- SQLAlchemy
+- Psycopg2
 
 ### Database
+- PostgreSQL
 
-* PostgreSQL
-
-### AI / NLP
-
-* Qwen 2.5 (Planned)
-* Prompt Engineering
+### AI
+- Qwen 2.5 (Planned)
+- Prompt Engineering
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 text2sql-app/
@@ -54,8 +50,8 @@ text2sql-app/
 │   ├── app/
 │   ├── config/
 │   ├── database/
-│   ├── services/
 │   ├── models/
+│   ├── services/
 │   └── main.py
 │
 ├── frontend/
@@ -64,68 +60,31 @@ text2sql-app/
 │   └── package.json
 │
 └── README.md
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/IamDeeprajSarma/text2sql-app.git
-cd text2sql-app
-```
-
-### Backend Setup
-
-```bash
+git clone https://github.com/<your-username>/text2sql-app.git
 cd backend
 
 python -m venv .venv
 
-source .venv/bin/activate      # macOS/Linux
-# OR
-.venv\Scripts\activate         # Windows
+# Windows
+.venv\Scripts\activate
+
+# macOS/Linux
+source .venv/bin/activate
 
 pip install -r requirements.txt
-```
 
-### Environment Variables
-
-Create a `.env` file inside the backend directory.
-
-```env
+cd text2sql-app
 DB_USER=postgres
 DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=your_database
-```
-
-### Run Backend
-
-```bash
 uvicorn main:app --reload
-```
-
----
-
-### Frontend Setup
-
-```bash
 cd frontend
 
 npm install
 
 npm run dev
-```
-
----
-
-## 🏛️ Architecture
-
-```text
 User
    │
    ▼
@@ -135,57 +94,24 @@ React Frontend
 FastAPI Backend
    │
    ▼
-Schema Extraction
+Database Schema Extraction
    │
    ▼
 LLM
    │
    ▼
-Generated SQL
+SQL Generation
    │
    ▼
 PostgreSQL
    │
    ▼
 Query Results
-```
-
----
-
-## 📌 Roadmap
-
-* [x] Backend setup
-* [x] PostgreSQL connection
-* [x] SQLAlchemy integration
-* [x] React frontend setup
-* [ ] LLM integration
-* [ ] Prompt engineering
-* [ ] SQL validation
-* [ ] Query history
-* [ ] Docker support
-* [ ] CI/CD pipeline
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and issue reports are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-**Deepraj Sarma**
-
-If you found this project interesting, feel free to ⭐ the repository.
+Future Improvements
+LLM integration
+SQL validation
+Query execution history
+Docker support
+Authentication
+CI/CD pipeline
+Multiple database support
