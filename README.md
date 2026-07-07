@@ -60,7 +60,7 @@ text2sql-app/
 │   └── package.json
 │
 └── README.md
-git clone https://github.com/<your-username>/text2sql-app.git
+git clone https://github.com/saurabh1802gupta-afk/text2sql-app.git
 cd backend
 
 python -m venv .venv
