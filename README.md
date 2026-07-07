@@ -142,4 +142,4 @@ Artificial Intelligence
 Backend Development
 Open Source
 
-Feel free to star the repository if you find it useful!
+Feel free to star the repository if you find it useful
